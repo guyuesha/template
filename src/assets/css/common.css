@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document
+Use for: aseoe.com
+Version: 1.0
+Date: 2016/6/21
+Author:chenjie
+*/
+body { font-size:12px; color:#666; font-family:"Microsoft YaHei", "微软雅黑",Tahoma,Arial,"Helvetica Neue","Hiragino Sans GB",Simsun,sans-self;background: #f8f8f8;}
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dt, dd, ul, ol, li, fieldset, form, tr, th, td, center, input, button, textarea{padding:0;margin:0}/*基础设置ˉ*/
+li,dl,ul{list-style-type:none;}
+h2,h3,h4,h5,h6{ margin:0; padding:0; font-weight:normal;}
+p{margin:0;padding:0}
+
+body,html{width:100%;height: 100%;}
+
+.el-button{
+  font-family:"Microsoft YaHei", "微软雅黑",Tahoma,Arial,"Helvetica Neue","Hiragino Sans GB",Simsun,sans-self;
+}
+/* 取消标签效果 */
+em,i{font-style:normal}
+
+fieldset, img { border: 0;}
+img{vertical-align: top;}
+
+a{color: #666; text-decoration:none;}
+a:focus{outline:none;}/*IE下*/
+a.hidefocus{outline:none}
+a:hover {color: #EF5542; text-decoration: none;}
+
+/* 清除浮动 */
+.clearfix:after{ content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.clear { clear:both;}
+
+
+/*表单共用样式*/
+input,textarea,select{outline:medium;}
+input:focus{border-color: #65a2f3;}
+textarea:focus{border-color: #ffc24d;}
+select:hover{ border-color: #65a2f3;}
+textarea{ resize:none; font-family:"微软雅黑"; font-size:14px;}
+input{ padding-left:8px; font-size:14px; font-family:"微软雅黑";}
+textarea{ padding:8px; line-height:22px;}
+/*表单样式*/
+
+
+/*表格共用样式*/
+table{border:solid #ddd;border-width:0px 0px 0px 0px;text-align:center;width: 100%;border-collapse: collapse;font-size: 13px;line-height:40px;}
+tr{height: 40px;}
+td{border:solid #ddd;border-width:0px 1px 1px 0px;margin: 0px;}
+th{ background:#f5f5f5; border-bottom:1px solid #ddd; border-right:1px solid #ddd; font-weight:normal;}
+
+ul li:last-child{margin-right:0px;}
+
+body,html{width:100%;height: 100%;}
